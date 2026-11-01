@@ -1,3 +1,5 @@
+![APEX](figures/banner.png)
+
 # APEX · ballast and load results
 
 Results export from the APEX ballast optimiser for a formula single-seater. The car comes in at 750 kg and has to reach the 798 kg minimum. The optimiser places the missing 48 kg across six ballast stations so the front axle share lands inside the 44.5–46% window and the CG sits on the centreline.
@@ -85,3 +87,7 @@ figures/                   PNGs used in this README
 Coordinates: x runs rearward from the front axle, y is positive to the left, z is up from the ground. The 2.80 m wheelbase is inferred from the exported CG and axle split.
 
 Exported 2026-11-01.
+
+## Licence
+
+[MIT](LICENSE) © 2026 Muktanan Mohapatra
