@@ -1,0 +1,7 @@
+station_id,station_name,x_m,y_m,z_m,min_ballast_kg,max_ballast_kg,available,safety_verified,data_source
+B001,Front Left,0.45,0.42,0.18,0.0,20.0,True,False,Synthetic assumption
+B002,Front Right,0.45,-0.42,0.18,0.0,20.0,True,False,Synthetic assumption
+B003,Mid Left,1.35,0.38,0.2,0.0,20.0,True,False,Synthetic assumption
+B004,Mid Right,1.35,-0.38,0.2,0.0,20.0,True,False,Synthetic assumption
+B005,Rear Left,2.35,0.4,0.2,0.0,20.0,True,False,Synthetic assumption
+B006,Rear Right,2.35,-0.4,0.2,0.0,20.0,True,False,Synthetic assumption

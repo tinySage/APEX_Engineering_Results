@@ -1,0 +1,8 @@
+Scenario,Longitudinal (m/s²),Lateral (m/s²),Front axle (N),Rear axle (N),Front inner (N),Front outer (N),Rear inner (N),Rear outer (N),Minimum wheel load (N),Wheel lift warning
+Straight line,0.0,0.0,3441.8,3913.2,1720.9,1720.9,1956.6,1956.6,1720.9,False
+Acceleration,4.0,0.0,3055.1,4299.9,1527.5,1527.5,2150.0,2150.0,1527.5,False
+Moderate braking,-4.0,0.0,3828.5,3526.5,1914.2,1914.2,1763.2,1763.2,1763.2,False
+Heavy braking,-8.0,0.0,4215.2,3139.8,2107.6,2107.6,1569.9,1569.9,1569.9,False
+Left cornering,0.0,12.0,3441.8,3913.2,705.8,2736.0,928.6,2984.6,705.8,False
+Right cornering,0.0,-12.0,3441.8,3913.2,705.8,2736.0,928.6,2984.6,705.8,False
+Combined braking and cornering,-6.0,10.0,4021.9,3333.1,1165.0,2856.9,809.9,2523.2,809.9,False

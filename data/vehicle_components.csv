@@ -1,0 +1,12 @@
+component_id,component,category,mass_kg,x_m,y_m,z_m,data_source
+C001,Chassis and Body,Structure,240,1.35,0.0,0.32,Synthetic assumption
+C002,Powertrain,Mechanical,115,2.05,0.0,0.38,Synthetic assumption
+C003,Battery,Electrical,35,1.1,0.0,0.42,Synthetic assumption
+C004,Front Suspension and Wheels,Suspension,75,0.3,0.0,0.28,Synthetic assumption
+C005,Rear Suspension and Wheels,Suspension,85,2.48,0.0,0.3,Synthetic assumption
+C006,Driver,Occupant,80,1.2,0.0,0.62,Synthetic assumption
+C007,Fuel System,Fluid System,35,1.85,0.0,0.35,Synthetic assumption
+C008,Aerodynamic Assembly,Aerodynamics,35,1.3,0.0,0.25,Synthetic assumption
+C009,Cooling System,Thermal,20,1.65,0.32,0.38,Synthetic assumption
+C010,Electronics and Wiring,Electrical,10,1.15,-0.15,0.48,Synthetic assumption
+C011,Fluids and Accessories,Systems,20,1.75,0.0,0.3,Synthetic assumption
