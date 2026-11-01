@@ -46,9 +46,31 @@ Wheel loads for seven manoeuvres, computed on the 750 kg pre-ballast car. No sce
 | Right cornering | 0.0 | -12.0 | 706 | no |
 | Combined braking and cornering | -6.0 | 10.0 | 810 | no |
 
+## How it works
+
+The full pipeline lives in [`notebooks/APEX.ipynb`](notebooks/APEX.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tinySage/APEX_Engineering_Results/blob/main/notebooks/APEX.ipynb).
+
+1. Vehicle model: 11 component groups and 6 ballast stations, each with a 3D position and mass, validated on load.
+2. Mass properties: total mass, 3D CG, yaw inertia and static axle loads, checked against an independent calculation.
+3. Ballast optimisation: SciPy constrained solver that hits the minimum mass, keeps the front share in the target window and centres the CG, with a multi-start robustness check.
+4. Dynamic analysis: longitudinal and lateral load transfer per wheel across seven manoeuvres, with wheel-lift detection.
+5. Interactive simulator: ipywidgets dashboard for moving stations, editing ballast and re-running the optimiser live.
+6. Export: writes the CSVs and the Excel workbook in this repo.
+
+To run locally:
+
+```
+pip install -r requirements.txt
+jupyter notebook notebooks/APEX.ipynb
+```
+
+The last cell uses `google.colab` to download the results zip and only works in Colab.
+
 ## Files
 
 ```
+notebooks/
+  APEX.ipynb               model, optimiser, dynamics and export
 data/
   vehicle_components.csv   mass and position of the 11 component groups
   ballast_stations.csv     station geometry, limits and flags
